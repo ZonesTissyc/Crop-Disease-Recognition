@@ -1,0 +1,5 @@
+.idea/
+*.exe
+.git/
+test/
+__pycharm__/

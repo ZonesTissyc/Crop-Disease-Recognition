@@ -1,0 +1,7 @@
+.venv/
+.git/
+*.exe
+*.jpg
+test/
+image/
+__pycharm__/
