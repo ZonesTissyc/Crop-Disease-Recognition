@@ -1,6 +1,11 @@
 # 使用官方 Python 基础镜像
 FROM python:3.12-slim
 
+RUN apt-get update && apt-get install -y \
+    libgl1 \
+    libglib2.0-0 \
+    && rm -rf /var/lib/apt/lists/*
+
 # 设置工作目录
 WORKDIR /app
 
